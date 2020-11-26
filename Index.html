@@ -3,9 +3,55 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport">
-        <title></title>
+        <title>Russell Portfolio</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-
+        <header>
+            <nav class="navresponsive" id="topnav">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/logo.svg"></a>
+                </div>
+                <ul class="navbar">
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="javascript:void(0)" class="icon" onclick="menu()"><img src="Images/3bars.svg"></a></li>
+                </ul>
+            </nav>
+        <script>
+                function menu() {
+                    var x =
+                        document.getElementById("topnav");
+                    if (x.className === "navresponsive") {
+                        x.className += " responsive"
+                    } else {
+                        x.className = "navresponsive";
+                    }
+                }
+        
+        </script>
+        </header>
+        <div class="banner">RUSSELL CHEW</div>
+        <section class="About">
+            <div class="insideabout">
+                <div class="photoone"><img src="Images/Individual.png"></div>
+                <div class="information">"My Name is Russell and I am a Ngee Ann poly student currently taking a diploma in Immersive Media ! "</div>
+            </div>
+            </section>
+        <h1 class="latest">LATEST WORKS</h1>
+        <section class="latestworks">
+            <div class="works"><a href="Images/Works/1.jpg" target="_blank"><img src="Images/Works/1.jpg"></a></div>
+            <div class="works"><a href="Images/Works/ITEaulmnidetailed.png" target="_blank"><img src="Images/Works/8.png"></a></div>
+            <div class="works"><a href="Images/Works/6.png" target="_blank"><img src="Images/Works/6.png"></a></div>
+        </section>
+        <div class="socialmedia">
+            <div class="socialmediainside"><a href="https://www.instagram.com/russchew/" target="_blank"><img src="Images/instagram.svg"></a></div>
+            <div class="socialmediainside"><a href="https://twitter.com/llessurz?lang=en-sg" target="_blank"><img src="Images/twitter.svg"></a></div>
+            <div class="socialmediainside"><a href="https://www.linkedin.com/in/russell-chew-49496217a/" target="_blank"><img src="Images/linkedin-brands.svg"></a></div>
+        </div>
+        <footer>
+            <p class="footer">A DESIGN BY RUSSELL CHEW &copy;COPYRIGHT 2020</p>
+        </footer>
     </body>
 </html>

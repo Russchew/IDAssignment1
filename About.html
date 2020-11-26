@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>Russell Portfolio</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navresponsive" id="topnav">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/logo.svg"></a>
+                </div>
+                <ul class="navbar">
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="javascript:void(0)" class="icon" onclick="menu()"><img src="Images/3bars.svg"></a></li>
+                </ul>
+            </nav>
+        <script>
+                function menu() {
+                    var x =
+                        document.getElementById("topnav");
+                    if (x.className === "navresponsive") {
+                        x.className += " responsive"
+                    } else {
+                        x.className = "navresponsive";
+                    }
+                }
+        
+        </script>
+        </header>
+        <div class="banner">ABOUT ME</div>
+        <section>
+            <article>
+                <h2>RUSSELL CHEW</h2>
+                <h3>IMMERSIVE MEDIA</h3>
+                <br>
+                <h3>Education</h3>
+                <p>ACS Primary (2006 - 2012)</p>
+                <p>Kent Ridge Secondary School(2013 - 2016)</p>
+                <p>ITE College Central Nitec in Social media and Web Developement (2016-2018)</p>
+                <p>ITE College Central Higher Nitec in Interactive Design (2018-2020</p>
+                <p>Ngee Ann Polytechnic Diploma in Immersive Media (2020 - Now)</p>
+                <br>
+                <h3>Awards</h3>
+                <p>Edusave Scholarship 2012</p>
+                <p>Eagles Award 2015</p>
+                <p>Eafles Award 2017</p>
+                <p>ITE CCA Medal</p>
+                <p>Good Progression Award 2019</p>
+                <p>Edusave Achievement of Academic Achievement 2020</p>
+                <br>
+                <h3>Skillset</h3>
+                <p>Adobe Photoshop</p>
+                <p>Adobe Illustrator</p>
+                <p>Adobe XD</p>
+                <p>Adobe Animate</p>
+                <p>Adobe Premier</p>
+                <p>Adobe Aftereffects</p>
+                <p>Adobe Indesign</p>
+                <p>HTML</p>
+                <P>CSS</P>
+            </article>
+            <aside>
+
+            </aside>
+        </section>
+        <div class="socialmedia">
+            <div class="socialmediainside"><a href="https://www.instagram.com/russchew/" target="_blank"><img src="Images/instagram.svg"></a></div>
+            <div class="socialmediainside"><a href="https://twitter.com/llessurz?lang=en-sg" target="_blank"><img src="Images/twitter.svg"></a></div>
+            <div class="socialmediainside"><a href="https://www.linkedin.com/in/russell-chew-49496217a/" target="_blank"><img src="Images/linkedin-brands.svg"></a></div>
+        </div>
+        <footer>
+            <p class="footer">A DESIGN BY RUSSELL CHEW &copy;COPYRIGHT 2020</p>
+        </footer>
+    </body>
+</html>
