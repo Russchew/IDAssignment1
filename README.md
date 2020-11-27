@@ -25,14 +25,11 @@ Finally there is the contact Page where i included the map to show where they ca
 * Feature 6 - Logo links the home page
 
 ## Wireframes
-![Home Desktop](https://user-images.githubusercontent.com/74225650/100430188-66725880-30d1-11eb-9f9f-38f42b710d17.png)
-![About Desktop](https://user-images.githubusercontent.com/74225650/100430125-4b074d80-30d1-11eb-82e1-72e89f5bfc6c.png)
-![Gallery Desktop](https://user-images.githubusercontent.com/74225650/100430181-64a89500-30d1-11eb-8cd4-97ee801b1ab2.png)
-![Contact Me Desktop](https://user-images.githubusercontent.com/74225650/100430178-62463b00-30d1-11eb-9b03-64a02fe9434c.png)
-![Home Mobile](https://user-images.githubusercontent.com/74225650/100430191-670aef00-30d1-11eb-8edd-697205366864.png)
-![About Mobile](https://user-images.githubusercontent.com/74225650/100430141-522e5b80-30d1-11eb-8ae0-f69bedbfdc56.png)
-![Gallery Mobile](https://user-images.githubusercontent.com/74225650/100430183-65d9c200-30d1-11eb-9b43-8df5603e63b6.png)
-![Contactus Mobile](https://user-images.githubusercontent.com/74225650/100430180-640ffe80-30d1-11eb-9c12-42a2fbf33988.png)
+### Desktop
+![Desktop](https://user-images.githubusercontent.com/74225650/100441418-62e6cd80-30e1-11eb-91ef-7e814b25574c.jpg)
+
+### Mobile
+![Mobile](https://user-images.githubusercontent.com/74225650/100441406-5e221980-30e1-11eb-8bfc-cab0750272fb.jpg) 
 
 ## Technologies Used
 
