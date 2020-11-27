@@ -139,6 +139,125 @@ header{
 .works img:hover{
     transform: scale(1.2);
 }
+/*About page*/
+.aboutinfo{
+    display: flex;
+    width: 100%;
+}
+.info{
+    flex: 1;
+    background-color:black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.bigphoto{
+    flex:1;
+    background-image: url(Images/aboutme.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bigphoto img{
+    display: none;
+    width: 100%;
+}
+.underline{
+    width: 200px;
+}
+.hthree{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*Gallery */
+.gallerysection{
+    width: 100%;
+}
+.gallerytitle{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 40px;
+    color:white;
+    background-color: black;
+}
+.gallerycontent{
+    display: flex;
+    width: 100%;
+}
+.galleryinside{
+    font-family: sans-serif;
+    text-align: center;
+    padding:50px;
+    background-color: teal;
+    color: white;
+    flex: 1;
+}
+.galleryobject a img{
+    width: 100%;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.galleryobject a img:hover{
+    transform: scale(1.05);
+}
+/*Contact form */
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+iframe{
+    width: 100%;
+}
+.contacttitle{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.contactname{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.contactplaceholder{
+    display: flex;
+    justify-content: center;
+}
+.inputone{
+    width: 50%;
+    padding: 20px;
+}
+.inputspecial{
+    width: 50%;
+    padding-bottom: 100px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.submission{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius:10px;
+}
+/* Bottom */
 .socialmedia{
     display: flex;
     justify-content: center;
@@ -204,6 +323,23 @@ footer{
         font-size: 25px;
     }
     .latestworks{
+        flex-direction: column;
+    }
+    /*About page*/
+    .aboutinfo{
+        flex-direction: column-reverse;
+    }
+    .info{
+        flex: 1;
+    }
+    .bigphoto{
+        flex: 1;
+    }
+    .bigphoto img{
+        display: block;
+    }
+    /*Gallery Page*/
+    .gallerycontent{
         flex-direction: column;
     }
 }
