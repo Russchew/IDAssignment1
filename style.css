@@ -342,7 +342,7 @@ footer{
     .gallerycontent{
         flex-direction: column;
     }
-    /*Contact Page */
+     /*Contact Page */
     .inputone{
         width:100%;
         margin-left: 10px;
@@ -353,8 +353,8 @@ footer{
         margin-left: 10px;
         margin-right: 10px;
     }
-    .submission{
-        padding-left: 50px;
-        padding-right: 50px;
+        .submission{
+            padding-left: 50px;
+            padding-right: 50px;
     }
 }
