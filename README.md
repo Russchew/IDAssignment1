@@ -3,7 +3,7 @@
 My name is Russell Chew and i am currently a student studying at ngee ann polytechnic.In my Portfolio it includes works that i have done in the past years.
 
 ## Design Process
-The design was mostly based around me as my favourite colour is teal i try to give a modern/simple vibe to my website.By adding the black and whites it makes the website look cleaner with all the works in the portfolio.
+The design was mostly based around me as my favourite colour is teal i try to give a modern/simple vibe to my website.By adding the black and white it makes the website look cleaner with all the works in the portfolio.
 
 I started out with the home page and i wanted to let my viewers know where am i currently studying or working and also a sneak peak of some of my latest works to keep them interested.
 
@@ -37,3 +37,5 @@ Finally there is the contact Page where i included the map to show where they ca
 *Social media Icons and Menu bar SVG from Font Awesome
 
 ## Web Link
+
+https://russchew.github.io/IDAssignment1/
